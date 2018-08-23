@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".PinLockActivity"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_passlock">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"></LinearLayout>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_5"
+        ads:adSize="BANNER"
+        ads:adUnitId="abc"
+        android:id="@+id/adView"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginTop="@dimen/margin_10"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo_lock"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="@string/enter_Password"
+        android:textColor="@android:color/white"
+        android:id="@+id/textView"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_marginRight="@dimen/margin_20"
+        android:layout_marginTop="@dimen/margin_10"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:hint="@string/please_Enter_the_Password"
+        android:textColorHint="@android:color/darker_gray"
+        android:inputType="textPassword"
+        android:textSize="22sp"
+        android:textColor="@android:color/white"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_marginRight="@dimen/margin_20"
+        android:background="@drawable/box"
+        android:id="@+id/editText"
+        android:layout_marginBottom="@dimen/margin_20"
+        android:layout_marginTop="@dimen/margin_10"/>
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:layout_weight="1"></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/colorPrimary"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cancel"
+                android:textSize="22sp"
+                android:drawablePadding="10dp"
+                android:textColor="@android:color/white"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/cross"
+                android:textAllCaps="false"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical|center_horizontal"
+
+                android:layout_marginLeft="@dimen/margin_35"
+                android:layout_marginRight="@dimen/margin_35"
+                android:id="@+id/button_cancel" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="@dimen/margin_3"
+            android:layout_marginBottom="@dimen/margin_3"
+            android:background="@android:color/darker_gray"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Continue"
+                android:textColor="@color/disabled_color"
+                android:enabled="false"
+                android:textSize="22sp"
+                android:textAllCaps="false"
+                android:layout_weight="1"
+                android:drawablePadding="10dp"
+                android:layout_marginLeft="@dimen/margin_35"
+                android:layout_marginRight="@dimen/margin_35"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:drawableRight="@drawable/right_black"
+                android:background="@android:color/transparent"
+                android:id="@+id/button_continue" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/confirm"
+                android:drawableRight="@drawable/navigatenext"
+                android:enabled="false"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textAllCaps="false"
+                android:layout_weight="1"
+                android:visibility="gone"
+                android:layout_marginLeft="@dimen/margin_35"
+                android:layout_marginRight="@dimen/margin_35"
+                android:background="@android:color/transparent"
+                android:drawablePadding="10dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+
+                android:id="@+id/button_confirm" />
+
+</LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SplashScreen">
+    <item android:id="@+id/action_newFolder"
+        android:title="Add Folder"
+        android:icon="@drawable/ic_create_new_folder_white_24dp"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+    <item android:id="@+id/action_export"
+        android:title="Gallery Export"
+        android:icon="@drawable/ic_lock_open_white_24dp"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+    <item android:id="@+id/action_delete"
+        android:title="Delete Images"
+        android:icon="@drawable/ic_delete_white_24dp"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+</menu>

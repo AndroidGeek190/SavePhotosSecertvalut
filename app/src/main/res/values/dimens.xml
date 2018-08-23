@@ -1,0 +1,51 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="screen_edge_horizontal_margin">16dp</dimen>
+    <dimen name="screen_edge_vertical_margin">16dp</dimen>
+    <dimen name="horizontal_divider_height">1dp</dimen>
+    <dimen name="keyboard_button_padding">15dp</dimen>
+    <dimen name="keyboard_button_ripple_padding">30dp</dimen>
+    <dimen name="pin_code_forgot_text_size">16sp</dimen>
+    <dimen name="pin_code_step_text_size">20sp</dimen>
+    <dimen name="pin_code_elements_margin">20dp</dimen>
+    <dimen name="activity_pin_code_padding">20dp</dimen>
+    <dimen name="pin_code_logo_margin">30dp</dimen>
+    <dimen name="pin_code_round_top_margin">10dp</dimen>
+    <dimen name="pin_code_round_size">25dp</dimen>
+    <dimen name="pin_code_round_margin">10dp</dimen>
+    <dimen name="light_gray_bar_margin_top">20dp</dimen>
+    <dimen name="light_gray_bar_margin_bottom">5dp</dimen>
+    <dimen name="light_gray_bar_margin_sides">50dp</dimen>
+    <dimen name="item_offset">2dp</dimen>
+
+    <dimen name="margin_minus_4">-4dp</dimen>
+    <dimen name="margin_minus_10">-10dp</dimen>
+    <dimen name="margin_1">1dp</dimen>
+    <dimen name="margin_2">2dp</dimen>
+    <dimen name="margin_3">3dp</dimen>
+    <dimen name="margin_4">4dp</dimen>
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="margin_7">7dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_15">15dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_25">25dp</dimen>
+    <dimen name="margin_30">30dp</dimen>
+    <dimen name="margin_35">35dp</dimen>
+    <dimen name="margin_40">40dp</dimen>
+    <dimen name="margin_50">50dp</dimen>
+    <dimen name="margin_115">115dp</dimen>
+    <dimen name="margin_228">228dp</dimen>
+    <dimen name="margin_135">135dp</dimen>
+    <dimen name="margin_150">150dp</dimen>
+    <dimen name="margin_200">200dp</dimen>
+    <dimen name="margin_218">218dp</dimen>
+    <dimen name="margin_292">292dp</dimen>
+
+
+
+</resources>

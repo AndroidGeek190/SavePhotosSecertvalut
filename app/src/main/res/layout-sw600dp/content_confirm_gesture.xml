@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<android.gesture.GestureOverlayView     android:id="@+id/gestures"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:eventsInterceptionEnabled="true"
+    android:gestureStrokeType="multiple"
+    android:gestureColor="@color/colorPrimary"
+    android:uncertainGestureColor="@color/colorPrimary"
+    android:orientation="vertical"
+    android:layout_weight="1">
+    <android.gesture.GestureOverlayView
+        android:id="@+id/g2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gestureStrokeType="multiple"
+        android:fadeOffset="001"
+        android:gestureColor="#000"
+        android:gestureStrokeAngleThreshold="0.0"
+        android:gestureStrokeLengthThreshold="0.0"
+        android:gestureStrokeSquarenessThreshold="0.0"
+
+        >
+    </android.gesture.GestureOverlayView>
+</android.gesture.GestureOverlayView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="@dimen/margin_10"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cancel"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                android:background="@android:color/transparent"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/cross"
+                android:textAllCaps="false"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+
+                android:id="@+id/button_cancel" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@android:color/darker_gray"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Continue"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:textColor="@color/disabled_color"
+                android:enabled="false"
+                android:textSize="20sp"
+                android:textAllCaps="false"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/right_black"
+                android:background="@android:color/transparent"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/button_continue" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/confirm"
+                android:drawableRight="@drawable/navigatenext"
+                android:enabled="false"
+                android:visibility="gone"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textAllCaps="false"
+                android:layout_gravity="center_vertical|center_horizontal"
+
+                android:background="@android:color/transparent"
+                android:layout_weight="1"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="20dp"
+
+                android:id="@+id/button_confirm" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
